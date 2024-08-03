@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["Shintaro Nakamura <nakamura.shin28@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+ipython = "^8.26.0"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.1"
+imblearn = "^0.0"
+lazypredict = "^0.2.12"
+streamlit = "^1.37.0"
+plotly = "^5.23.0"
+joblib = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
